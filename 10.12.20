@@ -1,0 +1,57 @@
+Scanner s= new Scanner(System.in);
+      //  Targil:
+      //  1. input two int numbers from the user a, b
+      //  print a > b, or a < b or a == b
+       // for example, if a = 3 and b = 4:
+      //  print "3 < 4"
+      //  for example, if a = 7 and b = 1:
+       // print "7 > 1"
+      //  for example, if a = 9 and b = 9:
+      //  print "9 == 9"
+
+        System.out.println("please enter number a:");
+        //int a= s.nextInt();
+       // System.out.println("please enter number b:");
+        //int b =s.nextInt();
+
+       // if ( a == b ){
+
+           // System.out.println(String.format(" %d = %d",a,b ));
+        //}
+
+
+       // else if (a < b){
+            //System.out.println(String.format(" %d < %d ",a,b ));
+        //}
+
+
+       // System.out.println("goodbye");
+
+
+        //2. write a loop which prints all the numbers from 5 to 10
+
+
+             // int x = 5;
+
+            //  while (x<=  10){
+
+           //  System.out.println(x);
+            //  x++;
+
+        //}
+
+
+               System.out.println( "Please enter number:");
+
+              int y = s.nextInt();
+               while (y <= 100){
+
+              System.out.println("try again");
+              y = s.nextInt();
+
+
+          }
+
+
+            System.out.println("Well done");
+
